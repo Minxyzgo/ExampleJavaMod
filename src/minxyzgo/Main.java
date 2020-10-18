@@ -21,7 +21,7 @@ public class Main extends Mod{
 
     @Override
     public void loadContent(){
-        new TEItems().load();
+       /* new TEItems().load();
         InputSetting.set();
         TransportDrone drone = new TransportDrone("transport-drone");
         new UnitFactory("test-factory"){{
@@ -32,7 +32,7 @@ public class Main extends Mod{
             size = 3;
             consumes.power(1.2f);
         }};
-        /*Events.on(ClientLoadEvent.class, e -> {
+        Events.on(ClientLoadEvent.class, e -> {
         		Time.runTask(30f, () -> {
         			 try{
         				new TestCustomGameDialog().init();
