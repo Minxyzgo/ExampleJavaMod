@@ -1,0 +1,10 @@
+{
+	"type": "Item",
+	"name": "扭曲物质",
+	"description": "核威慑的极至物品",
+	"cost": 0.01,
+	"color": "9370DB",
+	"radioactivity":9999999999,
+	"flammability":9999999999,
+	"alwaysUnlocked":true
+}
